@@ -29,10 +29,10 @@ public class ArrayExample {
 			input = sc.nextInt();
 		}
 
-		for (Integer i : a1) {
+/*		for (Integer i : a1) {
 			System.out.println(" test " + ((i % 2 == 0) ? "even " : " odd "));
 		}
-
+*/
 		Object arr[] = a1.toArray();
 		for (int i = 0; i < count; i++) {
 			if ((Integer) arr[i] == 0) {
